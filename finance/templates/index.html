@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+
+        <main class="container p-5">
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                {% for header in headings %}
+                <th>{{ header }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            <tr>{% for history in dict_history %}
+                <tr>
+                        <td>{{ history.symbol }}</td>
+                        <td>{{ history.stock_name }}</td>
+                        <td>{{ history.shares }}</td>
+                        <td>{{ history.price | usd }}</td>
+                        <td>{{ history.tot_total | usd }}</td>
+                {% endfor %}
+                </tr>
+            </tr>
+            <tr>
+                <td>Cash</td>
+                <td colspan="3"></td>
+                <td>{{ cash | usd }}</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"></td>
+                <td>{{ total| usd }}</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+
+        </main>
+
+
+{% endblock %}

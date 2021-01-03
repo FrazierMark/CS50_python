@@ -1,0 +1,30 @@
+.display-4 {
+    text-align: center;}
+
+.lead {
+    text-align: center;}
+.portrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;}
+#steps {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;}
+#portrait {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 30%;}
+#prayer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;}
+#tourist {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 30%;}

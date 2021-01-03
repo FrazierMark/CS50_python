@@ -1,0 +1,30 @@
+.display-4 {
+    text-align: center;}
+
+.lead {
+    text-align: center;}
+.landscape {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;}
+.small_landscape {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;}
+.portrait {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 30%;}
+#eyes {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;}
+#faces {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 45%;}
